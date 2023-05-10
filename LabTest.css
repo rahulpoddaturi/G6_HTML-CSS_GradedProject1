@@ -1,0 +1,148 @@
+        /* simple selector */
+        body {
+            background-color: rgb(253, 243, 223);
+            size: 100%;
+        }
+
+        header {
+            border-radius: 5px;
+            height: auto;
+            text-align: center;
+            background-color: rgb(192, 149, 233);
+        }
+
+        footer {
+            margin-top: 70px;
+            margin-bottom: 70px;
+
+        }
+
+        p,
+        h1 {
+            padding: 10px;
+            margin: 0%;
+        }
+
+        section {
+            position: absolute;
+            top: 5%;
+            left: 25%;
+            width: 50%;
+        }
+
+        article {
+
+            margin-right: 450px;
+            align-self: center;
+            margin-top: 10px;
+
+            width: 800px;
+
+            background-color: white;
+
+        }
+
+        input {
+            width: 300px;
+            border: none;
+            background-color: white;
+            border-bottom: 1px solid gray;
+            height: 30px;
+        }
+
+        input,
+        label,
+        h3,
+        #district {
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        button {
+            display: block;
+            margin: 50px;
+
+            width: 80px;
+            border-radius: 4px;
+            height: 30px;
+            color: white;
+            font-size: 18px;
+            float: right;
+            border: none;
+            background-color: rgb(175, 102, 243);
+            margin-right: -200px;
+            margin-left: 250px;
+        }
+
+        #district {
+            height: 50px;
+        }
+
+        /* combinator selector */
+        header p {
+            text-align: left;
+        }
+
+        article h3 {
+            font-family: Helvetica;
+            letter-spacing: 2px;
+        }
+
+        /* pseudo class selector */
+        input:focus {
+            outline: none !important;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+
+        /* pseudo element selector */
+        header p::first-line {
+            font-weight: bold;
+            color: rgb(76, 0, 255);
+        }
+
+        /* attribute selector */
+        input[name^="option"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        article .ltest .ltest1 {
+            margin-left: 40px;
+            height: 550px;
+            width: 1300px;
+            overflow: auto;
+            margin-top: 25px;
+            padding: 10px;
+            margin-top: 10px;
+            box-shadow: 8px 8px 16px 8px grey;
+
+        }
+
+        article .ltest {
+            height: 725px;
+            margin-left: -320px;
+            background-color: white;
+            width: 1400px;
+            overflow: hidden;
+            border-style: groove;
+            border-color: black;
+
+            display: inline-block;
+        }
+
+        img {
+            margin-left: 880px;
+            position: fixed;
+        }
+
+        .inbk {
+            margin-top: 50px;
+            display: inline-block;
+            margin-left: 300px;
+
+        }
+
+        .format1 {
+            display: inline-block
+        }

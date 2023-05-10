@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    margin-top: 0;
+    
+    background-color: floralwhite;
+    border-style: groove;
+    border-width: 5px;
+    border-color: black;
+  
+  }
+  .stickpos{
+    position: fixed;
+    z-index:300;
+    width: 100%;
+    
+  }
+  
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding-top : 10px
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  h1 {
+    Width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 40px;
+    background-color: #a9a9a9;
+    text-align-last: center;
+     
+    direction:rtl;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-self: center;
+    margin: 0;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+  }
+  
+  
+  
+  #slider{
+    margin-top: 90px;
+    overflow: hidden;
+    
+  }
+  
+  .slicov{
+    width: 100%;
+    max-width: max-content; 
+  }
+  #slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite ;
+   
+    
+    }
+  
+    #slider figure img{
+      width: 20%;
+      float:left;
+      object-fit: cover;
+      }
+  
+      @keyframes slider{
+        0%{
+          left: 0;
+        }
+        20%{
+          left: 0;
+        }
+        25%{
+          left: -100%;
+        }
+        45%{
+          left: -100%;
+        }
+        50%{
+          left: -200%;
+        }
+        70%{
+          left: -200%;
+        }
+        75%{
+          left: -300%;
+        }
+        95%{
+          left: -300%;
+        }
+        100%{
+          left: -400%;
+        }
+      }
+  
+      #covidcare, diabetescare{
+        margin: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        overflow-x: scroll;
+        
+    }
+    .products{
+      position: relative;
+      border-radius: 10px;
+      margin: 25px;
+      width: 300px;
+      height: 400px;
+      box-shadow: 10px 10px 5px rgb(236, 227, 227);
+      display: inline-block;
+      background-color: aliceblue;
+    }
+  
+  .products img{
+    
+    width: 284px;
+    height: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+      
+  }
+  .products img:hover{
+    width: 288px;
+    height: 208px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  
+  button{
+  margin-left: 10px;
+    width: 280px;
+    height: 30px;
+    cursor: pointer;
+    color: orange;
+    font-size: larger;
+    background-color: rgb(225, 225, 249);
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  button:active{
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255, 76);
+  }
+  
+  .prod{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  background-color: white;
+    padding: 15px;
+    border-style:groove;
+    border-width: 3px;
+    border-color: black;
+  }
+  
+  
+  
+  h2{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 200;
+    
+  }
+  

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Pharmacy - Lab test form</title>
+    <link href="labTest.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <section>
+
+        <header>
+
+
+        </header>
+        <article>
+            <div class="ltest">
+                <div class="ltest1">
+                    <form action="">
+                        <div class="format1">
+                            <div>
+                                <img src="./images/Lab-Test/lab-test.jpg" width="400" height="500">
+                            </div>
+                            <div>
+                                <article>
+                                    <h2>1. Your Contact Details</h2>
+
+                                    <input type="text" title="name" placeholder="Full Name" maxlength="40" required
+                                        spellcheck="true">
+                                </article>
+                                <article>
+
+                                    <input type="text" placeholder="Patient Id if exists" pattern="[a-zA-Z0-9 ]+">
+                                </article>
+
+                                <article>
+
+                                    <input type="number" min="5000000000" max="9999999999" placeholder="Contact Number"
+                                        required>
+                                </article>
+
+                                <article>
+
+                                    <input type="email" placeholder="Email ID" required>
+                                </article>
+
+                                <article>
+                                    <h2>2. Address</h2>
+
+                                    <input type="text" placeholder="H-No" required>
+
+
+                                    <input type="text" placeholder="Street" required>
+
+
+                                    <input type="text" placeholder="Area" required>
+
+                                    <h3>District</h3>
+                                    <select name="District" id="district" required>
+                                        <option value="">Choose</option>
+                                        <option value="RangaReddy District">Ranga Reddy District</option>
+                                        <option value="Hyderabad District">Hyderabad District</option>
+                                        <option value="Warangal District">Warangal District</option>
+                                    </select>
+                                </article>
+
+                                <article>
+                                    <h2>3. Choose the test Type</h2>
+                                    <p>Check atleast one box without fail</p>
+                                    <input type="checkbox" id="c1" name="option1" value="Over Charge">
+                                    <label for="c1">CBC</label>
+                                    <br>
+                                    <input type="checkbox" id="c2" name="option2" value="Meter Board Not Working">
+                                    <label for="c2">Complete Urine</label>
+                                    <br>
+                                    <input type="checkbox" id="c3" name="option3" value="Close the Meter">
+                                    <label for="c3">Lipid Profile</label>
+                                    <br>
+                                    <input type="checkbox" id="c4" name="option3" value="Hard Copy Not Provided">
+                                    <label for="c3">Thyroid Stimulating Hormone(TSH)</label>
+                                    <br>
+                                    <input type="checkbox" id="c4" name="option3" value="Hard Copy Not Provided">
+                                    <label for="c3">Glucose Test</label>
+                                </article>
+
+                                <article>
+                                    <h2>4. Do you want a hard copy of the report also?</h2>
+                                    <input type="radio" id="c5" name="option" value="True" required>
+                                    <label for="c5">Yes</label>
+                                    <br>
+                                    <input type="radio" id="c6" name="option" value="False">
+                                    <label for="c6">No</label>
+                                </article>
+
+                                <article>
+                                    <h2>5. Select Your Comfortable Date and Time</h2>
+                                    <article>
+                                        <h3>Date</h3>
+                                        <input type="date">
+                                    </article>
+                                    <article>
+                                        <h3>Time</h3>
+                                        <input type="time">
+                                    </article>
+                            </div>
+
+                        </div>
+
+
+                </div>
+                <div class="inbk">
+                    <input type="reset" value="Reset" title="clear all input values" style="background-color: rgb(210, 10, 10); 
+                    color: white" />
+                    <input type="submit" value="Submit" title="submit the data" style="background-color: rgb(29, 243, 29); 
+                    color: white" />
+                </div>
+                </form>
+
+            </div>
+
+        </article>
+
+    </section>
+
+</body>
+
+</html>
